@@ -9,8 +9,15 @@ namespace Teamawsome
             Console.WriteLine("Hello World!");
             Console.WriteLine("It's nice to meet you!");
             Console.WriteLine("Thank you for bringing the sunshine.");
+            Console.ReadLine();
             Console.WriteLine("We're obviously the Best pair");
             Console.ReadLine();
+
+            Console.WriteLine("Y for Yes and N for No");
+            string answer = Console.ReadLine();
+            Console.WriteLine($"If you answered Yes, you are correct. If you answered No, you are wrong.");
+            Console.ReadLine();
+
 
         }
     }
