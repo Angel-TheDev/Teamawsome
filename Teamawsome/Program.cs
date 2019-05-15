@@ -15,10 +15,17 @@ namespace Teamawsome
 
             Console.WriteLine("Y for Yes and N for No");
             string answer = Console.ReadLine();
-            Console.WriteLine($"If you answered Yes, you are correct. If you answered No, you are wrong.");
-            Console.ReadLine();
-            Console.("Can't really think of anything to put rn, I think im hungry lol");
+           
 
+            if (answer =="Y") { Console.WriteLine("You are correct!!");
+            }
+            else { Console.WriteLine("I'm sorry. That is the wrong answer."); };
+            
+            Console.ReadLine();
+            Console.WriteLine("Can't really think of anything to put rn, I think im hungry lol");
+            Console.ReadLine();
+
+             
         }
     }
 }
