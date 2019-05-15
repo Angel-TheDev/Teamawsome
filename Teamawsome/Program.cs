@@ -17,7 +17,7 @@ namespace Teamawsome
             string answer = Console.ReadLine();
             Console.WriteLine($"If you answered Yes, you are correct. If you answered No, you are wrong.");
             Console.ReadLine();
-
+            Console.("Can't really think of anything to put rn, I think im hungry lol");
 
         }
     }
